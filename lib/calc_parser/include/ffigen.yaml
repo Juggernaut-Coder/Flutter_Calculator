@@ -1,0 +1,9 @@
+name: CalcParser
+description: Calculator infix notation recursicve decent parser
+
+output: '/run/media/dirtyvoid/FileHub/Universal_Data/Codes/flutter_devel/calc/lib/calc_parser/include/generated_bindings.dart'
+headers:
+  entry-points:
+    - '/run/media/dirtyvoid/FileHub/Universal_Data/Codes/flutter_devel/calc/lib/calc_parser/include/calc_parser.h'
+
+comments: false

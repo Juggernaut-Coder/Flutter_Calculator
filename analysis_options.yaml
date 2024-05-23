@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: false  # Disable single quotes for string literals
+    prefer_double_quotes: true   # Enable double quotes for string literals
+    prefer_const_constructors: true  # Prefer using `const` constructors where possible
+    prefer_const_literals_to_create_immutables: true  # Prefer using const for creating immutable objects
+    prefer_typing_uninitialized_variables: true  # Prefer typing uninitialized variables for clarity
+    prefer_initializing_formals: true  # Prefer initializing formal parameters
+    camel_case_types: false  # Allow using PascalCase for type names instead of camelCase
+    camel_case_extensions: false  # Allow using PascalCase for extension names instead of camelCase
+    always_specify_types: true  # Always specify types for variables, parameters, and return types
